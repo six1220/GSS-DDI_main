@@ -12,7 +12,6 @@ The GSS-DDI model (`MultiLevelDDI`) consists of the following key components:
 |-----------|-------------|-------------|
 | **AMDE** | Attention-based Molecular Drug Encoder using Transformer architecture for SMILES sequence encoding | `models/AMDE.py` |
 | **GNN** | Graph Neural Network for molecular graph representation learning | `models/gnn.py` |
-| **SchNet** | 3D molecular structure encoder (optional) | External dependency |
 | **Molormer** | Semantic information encoder (optional) | External dependency |
 | **Cross-Attention** | Multi-modal feature fusion mechanism | `models/model.py` |
 | **GeneExpressionEncoder** | Gene expression data encoder | External dependency |
